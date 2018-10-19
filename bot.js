@@ -30,7 +30,7 @@ client.on('ready', () => {
  
 
 
-if (!prefix) const prefix = "!";
+  const prefix = "!";
 
 client.on("message", message => {
     fs.writeFile('./suck.json', JSON.stringify(suck));
